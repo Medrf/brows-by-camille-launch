@@ -8,22 +8,34 @@ const services = [
   {
     title: "Microblading",
     description: "Technique de maquillage semi-permanent qui dessine poil par poil pour un effet ultra-naturel. Idéal pour redéfinir, remplir ou créer des sourcils parfaits.",
-    duration: "2-3 heures",
   },
   {
-    title: "Implantation des Sourcils",
-    description: "Solution permanente pour des sourcils plus denses et naturels. Une technique avancée pour celles qui souhaitent des résultats durables.",
-    duration: "Consultation requise",
+    title: "Glaçage des lèvres",
+    description: "Soin hydratant et repulpant pour des lèvres douces, lisses et sublimées. Un effet glossy naturel et durable.",
   },
   {
-    title: "Henna Brows",
-    description: "Coloration naturelle au henné qui teinte les poils et la peau pour des sourcils plus définis. Effet naturel qui dure jusqu'à 6 semaines.",
-    duration: "45 minutes",
+    title: "Soins du visage GEMOLOGY",
+    description: "Soins luxueux aux pierres précieuses pour une peau régénérée, éclatante et visiblement rajeunie.",
   },
   {
-    title: "Brow Lift",
-    description: "Restructuration et lissage des sourcils pour un effet lifting naturel. Parfait pour dompter les sourcils rebelles et créer une belle forme.",
-    duration: "1 heure",
+    title: "Extensions de cils",
+    description: "Pose d'extensions pour un regard intense et naturel. Des cils volumineux et parfaitement définis.",
+  },
+  {
+    title: "Massages",
+    description: "Massages relaxants et thérapeutiques pour détendre le corps et l'esprit. Un moment de pure détente.",
+  },
+  {
+    title: "Enveloppements",
+    description: "Soins corporels enveloppants pour hydrater, détoxifier et affiner la silhouette.",
+  },
+  {
+    title: "Bain Cryo",
+    description: "Thérapie par le froid pour stimuler la circulation, réduire l'inflammation et revitaliser le corps.",
+  },
+  {
+    title: "Head Spa",
+    description: "Soin capillaire japonais relaxant qui purifie le cuir chevelu et favorise la santé des cheveux.",
   },
 ];
 
@@ -73,14 +85,9 @@ const Services = () => {
               transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
               className="group relative bg-card p-8 md:p-10 rounded-2xl border border-border/50 hover:border-primary/20 hover:shadow-card transition-all duration-500"
             >
-              <div className="flex items-start justify-between mb-4">
-                <h3 className="font-serif text-2xl font-semibold text-foreground">
-                  {service.title}
-                </h3>
-                <span className="font-sans text-xs tracking-wide text-muted-foreground bg-secondary px-3 py-1 rounded-full">
-                  {service.duration}
-                </span>
-              </div>
+              <h3 className="font-serif text-2xl font-semibold text-foreground mb-4">
+                {service.title}
+              </h3>
               
               <p className="font-sans text-muted-foreground leading-relaxed mb-6">
                 {service.description}
