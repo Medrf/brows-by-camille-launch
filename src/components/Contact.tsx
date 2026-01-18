@@ -54,7 +54,8 @@ const Contact = () => {
               Adresse
             </h3>
             <p className="font-sans text-muted-foreground">
-              Casablanca, Maroc
+              20 rue Elmassoudi<br />
+              2100 Casablanca, Maroc
             </p>
           </motion.div>
 
@@ -88,12 +89,12 @@ const Contact = () => {
               WhatsApp
             </h3>
             <a
-              href="https://wa.me/212600000000?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20un%20rendez-vous%20chez%20Brows%20by%20Camille."
+              href="https://wa.me/212604577204?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20un%20rendez-vous%20chez%20Brows%20by%20Camille."
               target="_blank"
               rel="noopener noreferrer"
               className="font-sans text-primary hover:underline"
             >
-              Nous contacter
+              +212 604-577204
             </a>
           </motion.div>
         </div>
@@ -105,7 +106,7 @@ const Contact = () => {
           className="text-center mt-16"
         >
           <a
-            href="https://wa.me/212600000000?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20un%20rendez-vous%20chez%20Brows%20by%20Camille."
+            href="https://wa.me/212604577204?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20un%20rendez-vous%20chez%20Brows%20by%20Camille."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-[#25D366] text-white px-8 py-4 text-sm font-medium tracking-wide rounded-full hover:bg-[#20bd5a] transition-colors duration-300 shadow-soft hover:shadow-card"
