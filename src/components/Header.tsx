@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Instagram, Menu, X } from "lucide-react";
 import { useState } from "react";
+import logo from "@/assets/logo.jpg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,8 +23,8 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="font-serif text-2xl md:text-3xl font-semibold text-foreground tracking-tight">
-            Brows by Camille
+          <Link to="/" className="flex items-center">
+            <img src={logo} alt="Brows by Camille" className="h-10 md:h-12 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
