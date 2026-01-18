@@ -23,7 +23,16 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          <Link 
+            to="/" 
+            className="flex items-center"
+            onClick={(e) => {
+              if (location.pathname === '/') {
+                e.preventDefault();
+              }
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+          >
             <img src={logo} alt="Brows by Camille" className="h-20 md:h-24 w-auto" />
           </Link>
 
