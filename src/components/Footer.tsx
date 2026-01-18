@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
-          <Link to="/" className="font-serif text-2xl font-semibold text-foreground">
+          <Link to="/" className="font-serif text-4xl md:text-5xl font-semibold text-foreground">
             Brows by Camille
           </Link>
 
