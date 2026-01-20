@@ -43,7 +43,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="font-sans text-lg md:text-xl text-muted-foreground mb-10 max-w-lg"
           >
-            Microblading • Implantation des sourcils • Henna Brows • Brow Lift
+            Microblading • Brow Lift • Implantation des sourcils • Speed Remover
           </motion.p>
 
           <motion.div

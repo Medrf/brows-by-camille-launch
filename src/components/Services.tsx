@@ -10,32 +10,16 @@ const services = [
     description: "Technique de maquillage semi-permanent qui dessine poil par poil pour un effet ultra-naturel. Idéal pour redéfinir, remplir ou créer des sourcils parfaits.",
   },
   {
-    title: "Glaçage des lèvres",
-    description: "Soin hydratant et repulpant pour des lèvres douces, lisses et sublimées. Un effet glossy naturel et durable.",
+    title: "Brow Lift",
+    description: "Technique de restructuration qui rehausse et fixe les sourcils pour un regard plus ouvert et rafraîchi. Effet naturel et durable.",
   },
   {
-    title: "Soins du visage GEMOLOGY",
-    description: "Soins luxueux aux pierres précieuses pour une peau régénérée, éclatante et visiblement rajeunie.",
+    title: "Implantation des sourcils",
+    description: "Reconstruction capillaire des sourcils pour combler les zones clairsemées ou inexistantes. Un résultat permanent et naturel.",
   },
   {
-    title: "Extensions de cils",
-    description: "Pose d'extensions pour un regard intense et naturel. Des cils volumineux et parfaitement définis.",
-  },
-  {
-    title: "Massages",
-    description: "Massages relaxants et thérapeutiques pour détendre le corps et l'esprit. Un moment de pure détente.",
-  },
-  {
-    title: "Enveloppements",
-    description: "Soins corporels enveloppants pour hydrater, détoxifier et affiner la silhouette.",
-  },
-  {
-    title: "Bain Cryo",
-    description: "Thérapie par le froid pour stimuler la circulation, réduire l'inflammation et revitaliser le corps.",
-  },
-  {
-    title: "Head Spa",
-    description: "Soin capillaire japonais relaxant qui purifie le cuir chevelu et favorise la santé des cheveux.",
+    title: "Speed Remover",
+    description: "Technique d'enlèvement du microblading pour corriger ou effacer un maquillage semi-permanent. Processus sûr et efficace.",
   },
 ];
 
