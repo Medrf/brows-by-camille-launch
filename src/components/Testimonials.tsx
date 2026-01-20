@@ -14,7 +14,7 @@ const testimonials = [
     name: "Yasmine K.",
     text: "Je recommande à 100% ! Camille prend le temps d'écouter et de conseiller. Le résultat dépasse mes attentes.",
     rating: 5,
-    service: "Henna Brows",
+    service: "Implantation des sourcils",
   },
   {
     name: "Nadia B.",
