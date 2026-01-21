@@ -14,12 +14,12 @@ const services = [
     description: "Technique de restructuration qui rehausse et fixe les sourcils pour un regard plus ouvert et rafraîchi. Effet naturel et durable.",
   },
   {
-    title: "Implantation des sourcils",
-    description: "Reconstruction capillaire des sourcils pour combler les zones clairsemées ou inexistantes. Un résultat permanent et naturel.",
-  },
-  {
     title: "Speed Remover",
     description: "Technique d'enlèvement du microblading pour corriger ou effacer un maquillage semi-permanent. Processus sûr et efficace.",
+  },
+  {
+    title: "Implantation des sourcils",
+    description: "Reconstruction capillaire des sourcils pour combler les zones clairsemées ou inexistantes. Un résultat permanent et naturel.",
   },
 ];
 
