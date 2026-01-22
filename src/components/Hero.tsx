@@ -41,7 +41,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="font-sans text-lg md:text-xl text-white/80 mb-10 max-w-xl mx-auto"
           >
-            Microblading – Brow Lift – Speed Remover
+            Microblading – Brow Lift – Speed Remover – Implantation des sourcils
           </motion.p>
 
           <motion.div
